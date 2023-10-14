@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Company {
+    height: 178px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        width: 1140px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

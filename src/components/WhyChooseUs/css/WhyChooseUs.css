@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.WhyChooseUs {
+  width: 100%;
+  height: 431px;
+  margin-top: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.WhyChooseUs .container {
+  width: 1140px;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.WhyChooseUs h2 {
+  font-family: "Oswald", sans-serif;
+  color: #353434;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.WhyChooseUs h3 {
+  font-family: "Open Sans", sans-serif;
+  width: 543px;
+  text-align: center;
+  color: #A8A8A8;
+  font-size: 14px;
+  font-weight: normal;
+}
+.WhyChooseUs .card-container {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.WhyChooseUs .card-container .card {
+  width: 350px;
+  height: 255px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 48px rgba(71, 71, 71, 0.15);
+  padding: 40px 37px 34px 37px;
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.WhyChooseUs .card-container .card .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.WhyChooseUs .card-container .card .icon img {
+  width: 34px;
+  height: 34px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.WhyChooseUs .card-container .card:nth-child(1) .icon {
+  background: #6156DC;
+}
+.WhyChooseUs .card-container .card:nth-child(2) {
+  background: #F9FAFF;
+  align-self: flex-start;
+}
+.WhyChooseUs .card-container .card:nth-child(2) .icon {
+  background: #EF6010;
+}
+.WhyChooseUs .card-container .card:nth-child(3) .icon {
+  background: #A73EED;
+}
+.WhyChooseUs .card-container .card h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #323232;
+}
+.WhyChooseUs .card-container .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #8F8F8F;
+}/*# sourceMappingURL=WhyChooseUs.css.map */

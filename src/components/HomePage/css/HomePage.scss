@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HomePage {
+    height: 647px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F7FF;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .05);
+}
+.container {
+    width: 1140px;
+    height: 100%;
+    position: relative;
+}
+.HomePage-bottom {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 91px);
+    section {
+        width: 543px;
+        height: 328px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        h2 {
+            font-family: 'Prompt', sans-serif;
+            font-weight: normal;
+            font-size: 45px;
+            line-height: 55px;
+            text-align: left;
+            color: #353434;
+            span {
+                color: #FF5C00;
+            }
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #A8A8A8;
+            text-align: left;
+        }
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 34px;
+            button {
+                font-family: 'Open Sans', sans-serif;
+                width: 150px;
+                height: 44px;
+                border-radius: 6px;
+                border: none;
+                outline: none;
+                background: #544CAC;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: normal;
+                box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
+            }
+            div {
+                font-family: 'Open Sans', sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                font-weight: normal;
+                font-size: 16px;
+                color: #000000;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
+.girl {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    height: 495px;
+}

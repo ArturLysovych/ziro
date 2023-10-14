@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HowItWorks {
+    width: 100%;
+    height: 470px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        width: 1140px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    section {
+        height: 100%;
+        width: 435px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h6 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+            letter-spacing: 1px;
+            color: #ff5c00;
+            text-align: left;
+        }
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            color: #353434;
+            line-height: 50px;
+            text-align: left;
+        }
+        .info-cards {
+            height: 294px;
+            width: 435px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .card {
+                height: 58px;
+                background: #F5F7FF;
+                width: 100%;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 14px 0 21px;
+                &:nth-child(1) {
+                    span {
+                        background: #F3E0FF;
+                        color: #9444C9;
+                    }
+                }
+                &:nth-child(2) {
+                    flex-direction: column;
+                    padding: 14px 0 21px 0;
+                    .card-top {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 14px 0 21px;
+                        img {
+                            transform: rotate(180deg);
+                        }
+                    }
+                    .card-bottom {
+                        font-family: 'Open Sans', sans-serif;
+                        padding-left: 59px;
+                        font-size: 12px;
+                        color: #A8A8A8;
+                        line-height: 22px;
+                        font-weight: normal;
+                        text-align: left;
+                    }
+                    span {
+                        background: #E7E9FE;
+                        color: #626FFF;
+                    }
+                }
+                &:nth-child(3) {
+                    span {
+                        background: #FFDECC;
+                        color: #FF5C00;
+                    }
+                }
+                span {
+                    font-family: 'Open Sans', sans-serif;
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                &-left {
+                    font-family: 'Open Sans', sans-serif;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    font-size: 15px;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                }
+                &:nth-child(2) {
+                    height: 134px;
+                }
+            }
+        }
+    }
+    .right-image {
+        width: 635px;
+        height: 433px;
+        background-image: url('../images/right-image.svg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            cursor: pointer;
+            width: 77px;
+            height: 77px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

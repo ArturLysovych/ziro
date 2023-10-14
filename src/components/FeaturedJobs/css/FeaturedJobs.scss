@@ -15,7 +15,6 @@
     .container {
         width: 1461px;
         height: 100%;
-        margin-left: 69px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -45,7 +44,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-left: 69px;
+        margin-right: -268px;
         .buttons {
             display: flex;
             gap: 20px;
@@ -68,6 +67,5 @@
         outline: none;
         color: #FFFFFF;
         cursor: pointer;
-        box-shadow: 0 4px 32px rgba(0, 0, 0, .15);
     }
 }

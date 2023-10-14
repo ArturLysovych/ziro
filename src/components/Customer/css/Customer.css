@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Customer {
+  height: 512px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 119px;
+}
+.Customer .container {
+  width: 1140px;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Customer h2 {
+  font-family: "Oswald", sans-serif;
+  line-height: 50px;
+  color: #353434;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+.Customer p {
+  font-family: "Open Sans", sans-serif;
+  width: 543px;
+  line-height: 24px;
+  color: #353434;
+  font-weight: normal;
+  font-size: 14px;
+}
+.Customer .customer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  gap: 29px;
+}
+.Customer .customer-bottom-right {
+  flex-direction: column;
+  display: flex;
+  width: 731px;
+  height: 281px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.Customer .customer-bottom-right h2, .Customer .customer-bottom-right h3, .Customer .customer-bottom-right p {
+  text-align: left;
+  width: 100%;
+}
+.Customer .customer-bottom-right h2 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  color: #323232;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Customer .customer-bottom-right h3 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  color: #868686;
+  font-weight: normal;
+  font-size: 14px;
+}
+.Customer .customer-bottom-right .stars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  color: #323232;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Customer .customer-bottom-right p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  color: #383838;
+  font-weight: normal;
+  font-size: 14px;
+}
+.Customer .customer-bottom-right .clients {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Customer .customer-bottom-right .clients .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.Customer .customer-bottom-right .clients .buttons img {
+  width: 41px;
+  height: 41px;
+}/*# sourceMappingURL=Customer.css.map */

@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItWorks/HowItWorks';
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
 import Customer from './components/Customer/Customer';
+import Info from './components/Info/Info';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WhyChooseUs />
       <FeaturedJobs />
       <Customer />
+      <Info />
     </div>
   );
 }

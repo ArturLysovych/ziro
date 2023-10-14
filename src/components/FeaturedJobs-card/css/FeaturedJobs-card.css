@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-card {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 47px 75px;
+  height: 465px;
+  width: 380px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.user-card-top {
+  height: 185px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-card-top h2 {
+  font-family: "Open Sans", sans-serif;
+  align-self: flex-end;
+  letter-spacing: -2.5px;
+  color: #332D2D;
+  line-height: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.user-card-top h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 50px;
+  color: #323232;
+}
+.user-card-top p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #4238AF;
+}
+.user-card-top .user {
+  height: 83px;
+  width: 83px;
+  background: #FEA06B;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-card-top .user img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.user-card-bottom {
+  height: 142px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-card-bottom h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #323232;
+  align-self: flex-start;
+}
+.user-card-bottom h4 span {
+  font-size: 14px;
+  color: #898989;
+}
+.user-card-bottom .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+}
+.user-card-bottom .buttons button:nth-child(1) {
+  width: 49px;
+  height: 49px;
+  background: #FF5C00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-card-bottom .buttons button:nth-child(1) img {
+  width: 23px;
+  height: 22px;
+}
+.user-card-bottom .buttons button:nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  width: 152px;
+  height: 49px;
+  background: #544CAC;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 47px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+}
+.user-card:nth-child(2) {
+  background: #F9FAFF;
+  align-self: flex-start;
+  box-shadow: 4px 8px 32px rgba(0, 0, 0, 0.15);
+}/*# sourceMappingURL=FeaturedJobs-card.css.map */

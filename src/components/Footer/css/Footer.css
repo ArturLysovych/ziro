@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 425px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 119px;
+  background: #DBE2FF;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+footer .container {
+  width: 1140px;
+  height: 100%;
+  padding-top: 110px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-top {
+  height: 163px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-top-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+footer .footer-top-list li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #717171;
+}
+footer .footer-top-list li:nth-child(1) {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #353434;
+}
+footer .footer-top-list li:nth-child(2) {
+  margin-top: 10px;
+}
+footer .footer-bottom {
+  height: 54px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 3px #625BAE;
+}
+footer .footer-bottom-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+footer .footer-bottom-logo h3 {
+  font-family: "Odibee Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #272626;
+}
+footer .footer-bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 65px;
+}
+footer .footer-bottom-list li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+}
+footer .footer-bottom-list li:nth-child(1) {
+  font-size: 14px;
+}
+footer .footer-bottom-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+footer .footer-bottom-icons .icon {
+  height: 29px;
+  width: 29px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer .footer-bottom-icons .icon img {
+  height: 12px;
+  width: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+footer .footer-bottom-icons .icon:nth-child(3) {
+  background: rgba(66, 56, 175, 0.81);
+}/*# sourceMappingURL=Footer.css.map */

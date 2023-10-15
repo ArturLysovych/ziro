@@ -15,9 +15,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    &:nth-child(2) {
-        align-self: flex-start;
-    }
+    cursor: pointer;
+    transition: .2s;
     h4 {
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
@@ -67,5 +66,14 @@
         border-radius: 50px;
         color: #FFFFFF;
         cursor: pointer;
+        transition: .2s;
+    }
+    &:hover {
+        transform: translateY(-22px) scale(1.02);
+        box-shadow: 0 3px 16px rgba(0, 0, 0, 0.15);
+        background: #F9FAFF;
+        button {
+            background: #544CAC;
+        }
     }
 }

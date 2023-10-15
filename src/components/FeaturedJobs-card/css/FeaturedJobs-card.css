@@ -15,6 +15,8 @@
   background: #FFFFFF;
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .user-card-top {
   height: 185px;
@@ -116,8 +118,8 @@
   font-size: 16px;
   font-weight: normal;
 }
-.user-card:nth-child(2) {
+.user-card:hover {
   background: #F9FAFF;
-  align-self: flex-start;
-  box-shadow: 4px 8px 32px rgba(0, 0, 0, 0.15);
+  transform: translateY(-35px) scale(1.02);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=FeaturedJobs-card.css.map */

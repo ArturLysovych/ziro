@@ -88,9 +88,14 @@ footer .footer-bottom-list li {
   font-weight: 500;
   font-size: 12px;
   line-height: 26px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
 }
-footer .footer-bottom-list li:nth-child(1) {
-  font-size: 14px;
+footer .footer-bottom-list li:hover {
+  transform: scale(1.2);
 }
 footer .footer-bottom-icons {
   display: flex;
@@ -107,15 +112,18 @@ footer .footer-bottom-icons .icon {
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.2s;
+  cursor: pointer;
 }
-footer .footer-bottom-icons .icon img {
+footer .footer-bottom-icons .icon svg {
   height: 12px;
   width: 12px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  color: #FFFFFF;
 }
-footer .footer-bottom-icons .icon:nth-child(3) {
+footer .footer-bottom-icons .icon:hover {
   background: rgba(66, 56, 175, 0.81);
 }/*# sourceMappingURL=Footer.css.map */

@@ -54,6 +54,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .WhyChooseUs .card-container .card .icon {
   width: 60px;
@@ -74,15 +76,16 @@
 .WhyChooseUs .card-container .card:nth-child(1) .icon {
   background: #6156DC;
 }
-.WhyChooseUs .card-container .card:nth-child(2) {
-  background: #F9FAFF;
-  align-self: flex-start;
-}
 .WhyChooseUs .card-container .card:nth-child(2) .icon {
   background: #EF6010;
 }
 .WhyChooseUs .card-container .card:nth-child(3) .icon {
   background: #A73EED;
+}
+.WhyChooseUs .card-container .card:hover {
+  background: #F9FAFF;
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 4px 24px rgba(71, 71, 71, 0.15);
 }
 .WhyChooseUs .card-container .card h2 {
   font-family: "Open Sans", sans-serif;

@@ -86,8 +86,11 @@ footer {
                     font-weight: 500;
                     font-size: 12px;
                     line-height: 26px;
-                    &:nth-child(1) {
-                        font-size: 14px;
+                    transition: .2s;
+                    user-select: none;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.2);
                     }
                 }
             }
@@ -105,13 +108,16 @@ footer {
                     justify-content: center;
                     border-radius: 50%;
                     cursor: pointer;
-                    img {
+                    transition: .2s;
+                    cursor: pointer;
+                    svg {
                         height: 12px;
                         width: 12px;
                         object-fit: cover;
                         object-position: center;
+                        color: #FFFFFF;
                     }
-                    &:nth-child(3) {
+                    &:hover {
                         background: rgba(66, 56, 175, 0.81);
                     }
                 }

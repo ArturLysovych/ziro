@@ -6,6 +6,7 @@ import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
 import Customer from './components/Customer/Customer';
 import Info from './components/Info/Info';
+import Pricing from './components/Pricing/Pricing';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeaturedJobs />
       <Customer />
       <Info />
+      <Pricing />
     </div>
   );
 }

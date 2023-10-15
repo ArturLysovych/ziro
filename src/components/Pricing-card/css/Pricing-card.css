@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pricing-card {
+  width: 350px;
+  height: 537px;
+  border-radius: 20px;
+  padding: 64px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-card:nth-child(2) {
+  align-self: flex-start;
+}
+.pricing-card h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4238AF;
+}
+.pricing-card h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 55px;
+  color: #353434;
+  letter-spacing: 3px;
+}
+.pricing-card h5 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  color: #8A86B9;
+}
+.pricing-card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #A8A8A8;
+  font-size: 14px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  gap: 4px;
+}
+.pricing-card p img {
+  height: 16px;
+  width: 16px;
+}
+.pricing-card button {
+  width: 172px;
+  height: 43px;
+  background: #BDBBD9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+}/*# sourceMappingURL=Pricing-card.css.map */

@@ -9,9 +9,18 @@ export default function Pricing() {
             <h2>Pricing Plan</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <div className="pricing-container">
-                <PricingCard />
-                <PricingCard />
-                <PricingCard />
+                <PricingCard 
+                  rate='FREE'
+                  price='0$'
+                />
+                <PricingCard 
+                  rate='PREMIUM'
+                  price='175$'
+                />
+                <PricingCard 
+                  rate='PLATINUM'
+                  price='500$'
+                />
             </div>
         </div>
     </div>

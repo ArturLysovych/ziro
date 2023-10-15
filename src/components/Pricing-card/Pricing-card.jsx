@@ -2,11 +2,14 @@ import React from 'react'
 import './css/Pricing-card.css';
 import check from './images/check.svg';
 
-export default function PricingCard() {
+export default function PricingCard(props) {
+
+  const { rate, price } = props;
+  
   return (
     <div className='pricing-card'>
-        <h4>FREE</h4>
-        <h2>$0</h2>
+        <h4>{rate}</h4>
+        <h2>{price}</h2>
         <h5>Per month</h5>
         <p>
             <img src={check} alt="" />

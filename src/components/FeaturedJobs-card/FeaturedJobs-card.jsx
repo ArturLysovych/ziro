@@ -1,19 +1,19 @@
 import React from 'react'
 import './css/FeaturedJobs-card.css';
-import prev from './images/prev.svg';
-import next from './images/next.svg';
-import man from './images/man.svg';
 import mark from './images/mark.svg';
 import money from './images/money.svg';
 import heart from './images/heart.svg';
 
-export default function FeaturedJobsCard() {
+export default function FeaturedJobsCard(props) {
+
+  const { image } = props;
+
   return (
     <div className='user-card'>
         <div className="user-card-top">
             <h2>...</h2>
             <div className="user">
-                <img src={man} alt="" />
+                <img src={image} alt="" />
             </div>
             <h3>Database Programmer</h3>
             <p>Marraz Team</p>

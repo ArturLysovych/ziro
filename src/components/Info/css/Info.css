@@ -43,4 +43,32 @@
   line-height: 24px;
   font-size: 16px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px) {
+  .Info .container {
+    width: 990px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Info .container {
+    width: 767px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Info .container {
+    width: 576px;
+  }
+  .Info .info-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Info .info-container h2 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .Info .container {
+    width: 468px;
+  }
 }/*# sourceMappingURL=Info.css.map */

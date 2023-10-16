@@ -45,7 +45,6 @@
         align-items: center;
         justify-content: space-around;
         border-radius: 50px;
-        
         input {
             width: 260px;
             font-family: 'Open Sans', sans-serif; 
@@ -54,7 +53,6 @@
             outline: none;
             border: none;
             padding-left: 16px;
-            // background: ;
         }
         .search {
             height: 28px;
@@ -81,6 +79,19 @@
             &:nth-child(1) {
                 color: #4238AF;
             }
+        }
+    }
+    .burger {
+        width: 30px;
+        height: 30px;
+        flex-direction: column;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        .line {
+            width: 30px;
+            height: 4px;
+            background: #4238AF;
         }
     }
 }

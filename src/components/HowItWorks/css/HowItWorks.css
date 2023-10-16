@@ -134,4 +134,57 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .HowItWorks .container {
+    width: 990px;
+  }
+  .HowItWorks .right-image {
+    width: 495px;
+    border-radius: 16px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .HowItWorks {
+    height: auto;
+  }
+  .HowItWorks .container {
+    width: 767px;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+  }
+  .HowItWorks .right-image {
+    width: 100%;
+    background-size: cover;
+  }
+  .HowItWorks section {
+    width: 100%;
+  }
+  .HowItWorks section h6, .HowItWorks section h2 {
+    text-align: center;
+  }
+  .HowItWorks section .info-cards {
+    width: 100%;
+    margin-top: 45px;
+  }
+  .HowItWorks section .info-cards .card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .HowItWorks .container {
+    width: 576px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .HowItWorks .container {
+    width: 468px;
+  }
+  .HowItWorks .right-image {
+    height: 320px;
+  }
 }/*# sourceMappingURL=HowItWorks.css.map */

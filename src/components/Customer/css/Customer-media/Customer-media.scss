@@ -1,0 +1,52 @@
+@media screen and (max-width: 1199px) {
+    .Customer {
+        .container {
+            width: 990px;
+        }
+    }
+       
+}
+@media screen and (max-width: 991px) {
+    .Customer {
+        .container {
+            width: 767px;
+        } 
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .Customer {
+        height: auto;
+        .customer-bottom {
+            margin-top: 45px;
+            height: auto;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &-right {
+                width: 100%;
+            }
+        }
+        .container {
+            width: 576px;
+        }
+    }
+      
+}
+@media screen and (max-width: 577px) {
+    .Customer {
+        .container {
+            width: 468px;
+        }
+        h2, p {
+            width: 100%;
+        }
+        .customer-bottom {
+            &-right {
+                h2, h3, p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

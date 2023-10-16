@@ -1,0 +1,37 @@
+@media screen and (max-width: 1199px) {
+  .Pricing {
+    height: auto;
+  }
+  .Pricing .container {
+    width: 990px;
+  }
+  .Pricing .pricing-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .Pricing .pricing-container .pricing-card {
+    transform-origin: center center;
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 991px) {
+  .Pricing .container {
+    width: 767px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Pricing .container {
+    width: 576px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .Pricing h2, .Pricing p {
+    width: 100%;
+  }
+  .Pricing .container {
+    width: 468px;
+  }
+}/*# sourceMappingURL=Pricing-media.css.map */

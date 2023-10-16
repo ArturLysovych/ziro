@@ -1,0 +1,26 @@
+@media screen and (max-width: 1199px) {
+  .Company .container {
+    width: 990px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Company .container {
+    width: 767px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Company {
+    height: auto;
+    padding: 45px 0;
+  }
+  .Company .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 577px) {
+  .Company .container {
+    width: 468px;
+  }
+}/*# sourceMappingURL=Company-media.css.map */

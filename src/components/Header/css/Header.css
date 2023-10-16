@@ -82,4 +82,17 @@
 }
 .Header p span:nth-child(1) {
   color: #4238AF;
+}
+.Header .burger {
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.Header .burger .line {
+  width: 30px;
+  height: 4px;
+  background: #4238AF;
 }/*# sourceMappingURL=Header.css.map */

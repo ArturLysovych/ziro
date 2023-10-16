@@ -28,6 +28,11 @@ export default function Header() {
           /
           <span>Sign up</span>
       </p>
+      <div className="burger">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
     </div>
   )
 }

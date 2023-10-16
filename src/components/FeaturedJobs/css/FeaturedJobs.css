@@ -68,4 +68,49 @@
   outline: none;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) {
+  .FeaturedJobs .container {
+    width: 990px;
+  }
+  .FeaturedJobs section {
+    gap: 50px !important;
+  }
+  .FeaturedJobs section .card {
+    margin: 40px 0 !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .FeaturedJobs .container {
+    width: 767px;
+  }
+  .FeaturedJobs section {
+    margin: 0;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .FeaturedJobs section .user-card:hover {
+    transform: none;
+  }
+  .FeaturedJobs section .user-card:nth-child(1) {
+    display: flex;
+  }
+  .FeaturedJobs section .user-card:nth-child(2), .FeaturedJobs section .user-card:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .FeaturedJobs .container {
+    width: 576px;
+  }
+  .FeaturedJobs h2, .FeaturedJobs p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 577px) {
+  .FeaturedJobs .container {
+    width: 468px;
+  }
 }/*# sourceMappingURL=FeaturedJobs.css.map */

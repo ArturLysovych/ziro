@@ -90,4 +90,68 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 495px;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 990px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 767px;
+  }
+  .Header .header-left h2 {
+    font-size: 25px;
+  }
+  .Header .header-list {
+    width: auto;
+    gap: 13px;
+  }
+  .Header .header-list li {
+    font-size: 12px;
+  }
+  .Header .input {
+    width: auto;
+    padding: 0 10px;
+  }
+  .Header .input input {
+    width: 150px;
+  }
+  .Header p {
+    font-size: 14px;
+  }
+  .HomePage-bottom section {
+    z-index: 1;
+  }
+  .HomePage-bottom .girl {
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+  .Header .header-list {
+    display: none;
+  }
+  .Header .burger {
+    display: flex;
+  }
+  .HomePage-bottom section {
+    width: 100%;
+    align-items: center;
+  }
+  .HomePage-bottom section h2, .HomePage-bottom section p {
+    text-align: center;
+    width: 100%;
+  }
+  .HomePage-bottom .girl {
+    display: none;
+  }
+}
+@media screen and (max-width: 577px) {
+  .container {
+    width: 468px;
+  }
 }/*# sourceMappingURL=HomePage.css.map */

@@ -1,0 +1,43 @@
+@media screen and (max-width: 1199px) {
+    .WhyChooseUs .container {
+        width: 990px;
+        .card-container {
+            .card {
+                transform: scale(.85);
+            }
+        }
+    }  
+}
+@media screen and (max-width: 991px) {
+    .WhyChooseUs {
+        height: auto !important;
+    }
+    .WhyChooseUs .container {
+        width: 767px;
+    }
+    .card-container {
+        height: auto !important;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around !important;
+        .card {
+            transform: scale(1);
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .WhyChooseUs .container {
+        width: 576px;
+    }
+    .card-container {
+        width: 100% !important;
+        .card {
+            width: 100% !important;
+        }
+    }
+}
+@media screen and (max-width: 577px) {
+    .WhyChooseUs .container {
+        width: 468px;
+    }
+}

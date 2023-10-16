@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 10px;
+}
+
 html::-webkit-scrollbar {
   width: 12px;
 }

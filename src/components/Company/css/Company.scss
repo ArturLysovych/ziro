@@ -5,7 +5,7 @@
 }
 
 .Company {
-    height: 178px;
+    min-height: 178px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,3 +18,5 @@
         justify-content: space-between;
     }
 }
+
+@import './Company-media/Company-media.scss';

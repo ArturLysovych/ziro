@@ -1,5 +1,4 @@
 import './App.css';
-import './Selection.css';
 import HomePage from './components/HomePage/HomePage';
 import Company from './components/Company/Company';
 import HowItWorks from './components/HowItWorks/HowItWorks';

@@ -54,3 +54,5 @@ html::-webkit-scrollbar-track {
     transform: rotate(360deg);
   }
 }
+
+@import './Selection.css';
